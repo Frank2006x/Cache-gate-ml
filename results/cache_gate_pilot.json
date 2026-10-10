@@ -1,0 +1,35 @@
+[
+  {
+    "method": "source_only",
+    "images": 32,
+    "accuracy_percent": 50.0,
+    "mean_entropy": 4.839772567152977,
+    "backward_passes": 0,
+    "cache_hits": 0,
+    "cache_hit_ratio_percent": 0.0,
+    "elapsed_seconds": 1.9984724949999872,
+    "throughput_images_per_second": 16.012229380219818
+  },
+  {
+    "method": "tent_every_frame",
+    "images": 32,
+    "accuracy_percent": 0.0,
+    "mean_entropy": 6.882628187537193,
+    "backward_passes": 32,
+    "cache_hits": 0,
+    "cache_hit_ratio_percent": 0.0,
+    "elapsed_seconds": 2.478492911000103,
+    "throughput_images_per_second": 12.911071828358628
+  },
+  {
+    "method": "cache_gated_tent",
+    "images": 32,
+    "accuracy_percent": 0.0,
+    "mean_entropy": 6.8852610141038895,
+    "backward_passes": 8,
+    "cache_hits": 24,
+    "cache_hit_ratio_percent": 75.0,
+    "elapsed_seconds": 1.7422814150004342,
+    "throughput_images_per_second": 18.366722921160257
+  }
+]

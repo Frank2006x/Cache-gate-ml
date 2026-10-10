@@ -28,8 +28,7 @@ def configure_tent(model, optimizer_type="adam", learning_rate=1e-3, weight_deca
                 module.weight.requires_grad_(True)
                 module.bias.requires_grad_(True)
             module.track_running_stats = False
-            module.running_mean = None
-            module.running_var = None
+            
 
     params, _ = collect_params(model)
     if not params:
