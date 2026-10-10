@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch and model checkpoints
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+weights/
+saved_models/
+
+# Datasets and benchmarks
+data/
+datasets/
+*.npy
+*.npz
+*.tar
+*.tar.gz
+*.zip
+
+# Logs and profiling
+runs/
+logs/
+wandb/
+.tensorboard/
+*.prof
+*.lprof
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Environments
+env/
+venv/
+.venv/
+ENV/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
