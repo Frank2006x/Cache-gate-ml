@@ -7,7 +7,16 @@ authors = [
     { name = "Frank2006x", email = "frank2006x@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "pyyaml>=6.0.3",
+    "scikit-image>=0.26.0",
+    "torch>=2.14.1",
+    "torchvision>=0.29.1",
+    "tqdm>=4.70.1",
+]
 
 [project.scripts]
 cache-gating-tta = "cache_gating_tta:main"
